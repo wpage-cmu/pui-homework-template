@@ -1,0 +1,6 @@
+center align all of the page
+get link live https://wpage-cmu.github.io/pui-homework-template/solution-hw1/
+QA spacing
+When a user places their cursor over a product, it should be highlighted in yellow and the product name should turn bold, as shown in the Gallery mockup. Clicking anywhere in the highlighted section (including the image) should direct to the Product Detail Page. In this assignment all products can redirect to the Product Detail Page for Original Cinnamon Roll. (Hint: you need to nest your element correctly for this to work.)
+QA on 1200px
+comment code

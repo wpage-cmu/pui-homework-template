@@ -1,4 +1,4 @@
-
+/* element selectors*/
 hr {
     border: none;
     height: 4px;
@@ -11,17 +11,26 @@ ul {
     margin: 0; 
 }
 
+label{
+    margin-top: 10px;
+}
 p {
     margin-top: 0px;
     margin-bottom: 0px;
 } 
 
+/* class selectors*/
 .cart_img {
     height: 200px;
     width: 200px;
     border: 4px solid black;
 }
 
+.remove{
+    font-size: 10px;
+    text-decoration: underline;
+    font-weight: bold;
+}
 .gallery_img {
     height: 400px;
     width: 400px;
@@ -35,13 +44,11 @@ p {
     border: 4px solid black;
 }
 
-.gallery_img:hover {
-    background-color: yellow;
-}
-
 .header_link {
+    display: flex;
     text-decoration: none;
-    color: black
+    color: black;
+    justify-content: center;
 }
 
 .header_link:visited {
@@ -49,13 +56,44 @@ p {
     color: black
 }
 
+.prd_total{
+    margin-bottom: 40px;
+}
+
+/* id selectors*/
+#gallery li {
+    padding-left: 10px;
+    padding-right: 10px
+    
+}
+
+#gallery a:visited {
+    color: black
+}
+
+#gallery li:hover{
+    background-color: yellow;
+    font-weight: bold;
+}
+
+#gallery_p{
+    margin-bottom: 10px;
+}
+
 #checkout {
     background-color: yellow;
+    margin-top: 5px;
 }
 
 #add_cart {
     background-color: yellow;
+    margin: 7.5%
 }
+
+#cost {
+    margin: 7.5%
+}
+
 
 #cart_hr {
     width: 50%;
@@ -67,10 +105,46 @@ p {
 
 #product_page {
     background-color: yellow;
-    color: black
+    color: black;
+    font-weight: bold;
 }
 
 #cart_page {
     background-color: yellow;
-    color: black
+    color: black;
+    font-weight: bold;
 }
+
+#page_body {
+    display: flex;
+    justify-content: center; /* Centers content horizontally */
+    flex-direction: column;
+    align-items: center; /* Align child elements (like #gallery_options) to the left */
+    margin: 0 auto; /* Ensure the body is centered on the screen */
+}
+
+#gallery_options {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 15%;
+    margin: 10px;
+}
+
+#add_cart_section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    width: 100%;
+}
+
+#shopping_cart p {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+/* w3schools, class slides documentation was used in the writing of this code*/
