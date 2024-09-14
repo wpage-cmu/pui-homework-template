@@ -127,6 +127,9 @@ p {
     box-sizing: border-box;
 }
 
+.gallery a{
+    color:black;
+}
 .gallery a:visited {
     color: black
 }
