@@ -1,0 +1,266 @@
+/* element selectors*/
+h1{
+    font-weight: normal;
+}
+hr {
+    border: 2px solid black;
+    margin: 10px 0
+}
+
+*{
+    font-family: Helvetica, sans-serif;
+}
+
+select{
+    font-size: 20px;
+    border: solid black 3px;
+    padding: 5px;
+    margin-top: 5px;
+    width: 100%
+}
+
+ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+}
+
+label{
+    margin-top: 10px;
+}
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+} 
+
+/* class selectors*/
+.cart_img {
+    height: 200px;
+    width: 200px;
+    border: 3px solid black;
+}
+
+.cart_items{
+    display: flex;
+}
+
+.cart_item_desc{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 25px;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.cart_item_price{
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    font-size: 20px;
+}
+.header_text{
+    display: flex;
+    align-items: flex-start; 
+    justify-content: flex-start;
+    margin-bottom: 10px;
+    
+}
+
+.remove{
+    display: flex;
+    align-items: flex-start;
+    font-size: 20px;
+    text-decoration: underline;
+    font-weight: bold;
+    margin: 10px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+.gallery_img {
+    height: 285px;
+    width: 285px;
+    margin-top: 25px;
+    border: 4px solid black;
+}
+
+
+.detail_img {
+    height: 600px;
+    width: 600px;
+    border: 4px solid black;
+}
+
+.header_link {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+}
+
+.header_link:visited {
+    text-decoration: none;
+    color: black
+}
+
+.prd_total{
+    margin-left: auto;
+    margin-bottom: 40px;
+}
+
+.gallery{
+    display: flex;
+    gap: 50px;  /* found via https://stackoverflow.com/questions/20626685/how-do-i-set-distance-between-flexbox-items */
+    font-size: 28px;
+}
+
+.gallery li:hover{
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.gallery li {
+    display: flex;
+    flex-direction: column;
+    padding-left: 4.5px;
+    width: 300px;
+    box-sizing: border-box;
+}
+
+.gallery a:visited {
+    color: black
+}
+
+/* id selectors*/
+#detail_overall{
+    display:flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 50px;
+}
+
+#header_overall{
+    display:flex;
+    width:100%;
+}
+
+
+#header_right{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 15px;
+}
+
+#header_links{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 150px;
+    margin-right: 100px;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+
+
+#checkout {
+    background-color: yellow;
+    margin-top: 10px;
+    margin-left: auto;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+#add_cart {
+    background-color: yellow;
+    margin: 7.5%;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 20px;
+    border: 3px solid black;
+}
+
+#cost {
+    font-weight: bold;
+    margin: 7.5%;
+}
+
+
+#cart_hr {
+    width: 100%;
+}
+
+#logo {
+    width: 400px;
+}
+
+#product_page {
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+}
+
+#cart_page {
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+}
+
+#cart_body {
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+    align-items: center;
+    margin-left: 400px; 
+    margin-right:200px;
+    margin-top: 50px;
+    width: 50%;
+}
+
+#page_body {
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto; 
+    margin-top: 50px;
+}
+
+#gallery_options {
+    display: flex;
+    justify-content: flex-start;
+    flex-grow: .5;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 15%;
+    margin: 30px;
+    font-size: 20px;
+}
+
+#add_cart_section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    width: 100%;
+}
+
+#shopping_cart{
+    width: 100%;
+}
+
+#cart_total{
+    display: flex;
+    gap:255px;
+    align-items: flex-end;
+    flex-direction: row;
+    margin-left: auto;
+    font-size: 20px;
+}
+
+
+
+/* w3schools, class slides documentation was used in the writing of this code*/
