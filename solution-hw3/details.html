@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8">
+  <title>Page Title</title>
+  <link rel="stylesheet" href="./css/style.css">
+
+  
+  <body>
+    
+    <!-- header -->
+    <div id = 'header_overall'>
+      <div id="header_logo">
+        <a href="./index.html">
+        <img src="../assets/logo/logo-01.svg" alt="Bun Bun Bake Shop logo" id="logo">
+        </a>
+      </div>
+      
+      <div id="header_right">
+        <div id="header_links">
+          <a class="header_link" href="./cart.html">
+            Cart
+          </a>    
+          <a class="header_link" href="./index.html" id="product_page">
+                Products
+          </a>     
+        </div>
+          
+        <hr>
+        <div class = 'header_text'>
+          <h1>Original cinnamon roll</h1>
+        </div>
+      </div>
+    </div>  
+
+    <!-- page body -->
+    <div id="detail_overall">
+      <img src="../assets/products/original-cinnamon-roll.jpg" alt="original-cinnamon-roll" class="detail_img">
+      <div id="gallery_options">
+        <p id="gallery_p">Customize our delicious, hand-made cinnamon roll to your liking!</p>
+        <br>
+        <br>
+        
+        <label for="glazing">Glazing:</label>
+        <select name="glazing" id="glazing">
+          <option value="original">Keep original</option>
+          <option value="sugar">Sugar milk</option>
+          <option value="vanilla">Vanilla milk</option>
+          <option value="chocolate">Double chocolate</option>
+        </select>
+        <br>
+
+        <label for="size">Pack size:</label>
+        <select name="size" id="size">
+          <option value="1">1</option>
+          <option value="3">3</option>
+          <option value="6">6</option>
+          <option value="12">12</option>
+        </select>
+        <br>
+        <br>
+        <br>
+        <div id="add_cart_section">
+          <p id="cost">$ 2.49</p>
+          <button type="button" id="add_cart">Add to cart</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
