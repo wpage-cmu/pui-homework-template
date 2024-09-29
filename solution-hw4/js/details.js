@@ -83,10 +83,10 @@ function calcPrice(basePrice, glazingCost, packSizeCost){
 
 //calc price upon changing options
 function glazingChange(element) {
-    const glazingCost = element.value;
-    const packSizeCost = document.getElementById("size").value;
-    calcPrice(basePrice, glazingCost, packSizeCost);
-  }
+  const glazingCost = element.value;
+  const packSizeCost = document.getElementById("size").value;
+  calcPrice(basePrice, glazingCost, packSizeCost);
+}
   
 function sizeChange(element) {
   const packSizeCost = element.value;
