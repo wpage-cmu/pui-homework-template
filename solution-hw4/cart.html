@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8">
+  <title>Page Title</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="./js/rollsData.js" defer></script>
+  <script src="./js/details.js" defer></script>
+  
+  <body>
+    
+    <!-- header -->
+    <div id = 'header_overall'>
+      <div id="header_logo">
+        <a href="./index.html">
+        <img src="../assets/logo/logo-01.svg" alt="Bun Bun Bake Shop logo" id="logo">
+        </a>
+      </div>
+      
+      <div id="header_right">
+        <div id="header_links">
+          <a class="header_link" href="./cart.html" id="cart_page">
+            Cart
+          </a>    
+          <a class="header_link" href="./index.html">
+                Products
+          </a>     
+        </div>
+          
+        <hr>
+        <div class = 'header_text'>
+          <h1>Our hand-made cinnamon rolls</h1>
+        </div>
+      </div>
+    </div>  
+      
+    <!-- cart body-->
+    <div id ='cart_body'>
+      <ul id="shopping_cart">
+        <li class="cart_items">
+          <div class="cart_item_img">
+            <img src="../assets/products/original-cinnamon-roll.jpg" alt="original-cinnamon-roll" class="cart_img">
+            <p class="remove">Remove</p>
+          </div>  
+          <div class="cart_item_desc">
+            <br>
+            <p>Original cinnamon roll</p>
+            <p>Glazing: Keep original</p>
+            <p>Pack size: 1</p>
+            <br>
+          </div>
+          <div class="cart_item_price">
+            <p class="prd_total">$2.49</p>
+          </div>
+        </li>  
+        <li class="cart_items">
+          <div class="cart_item_img">
+            <img src="../assets/products/double-chocolate-cinnamon-roll.jpg" alt="original-cinnamon-roll" class="cart_img">
+            <p class="remove">Remove</p>
+          </div> 
+          <div class="cart_item_desc">
+          <br>
+            <p>Double-chocolate cinnamon roll</p>
+            <p>Glazing: Sugar Milk</p>
+            <p>Pack size: 6</p>
+            <br>
+          </div>
+          <div class="cart_item_price">
+            <p class="prd_total">$27.45</p>
+          </div>  
+        </li>  
+      </ul>
+
+      <hr id="cart_hr">
+
+      <div id="cart_total">
+        <p>Total: </p>
+        <p>$29.94</p>
+      </div>
+
+      <button id="checkout">Checkout</button>
+
+    </div>
+  </body>
+</html>
