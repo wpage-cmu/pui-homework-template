@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8">
+  <title>Page Title</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="./js/rollsData.js" defer></script>
+  <script src="./js/details.js" defer></script>
+
+
+  
+  <body>
+    
+    <!-- header -->
+    <div id = 'header_overall'>
+      <div id="header_logo">
+        <a href="./index.html">
+        <img src="../assets/logo/logo-01.svg" alt="Bun Bun Bake Shop logo" id="logo">
+        </a>
+      </div>
+      
+      <div id="header_right">
+        <div id="header_links">
+          <a class="header_link" href="./cart.html">
+            Cart
+          </a>    
+          <a class="header_link" href="./index.html" id="product_page">
+                Products
+          </a>     
+        </div>
+          
+        <hr>
+        <div class = 'header_text'>
+          <h1 id = 'details_header_text'>Original cinnamon roll</h1>
+        </div>
+      </div>
+    </div>  
+
+    <!-- page body -->
+    <div id="detail_overall">
+      <img src="" alt="original-cinnamon-roll" id="detail_img">
+      <div id="gallery_options">
+        <p id="gallery_p">Customize our delicious, hand-made cinnamon roll to your liking!</p>
+        <br>
+        <br>
+        
+        <label for="glazing">Glazing:</label>
+        <select id="glazingOptions" onchange="glazingChange(this)">
+        </select>
+        <br>
+        <label for="size">Pack size:</label>
+        <select id="size" onchange="sizeChange(this)">
+        </select>
+        <br>
+        <br>
+        <br>
+        <div id="add_cart_section">
+          <p id="details_cost">$2.49</p>
+          <button type="button" id="add_cart">Add to cart</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
