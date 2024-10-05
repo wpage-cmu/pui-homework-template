@@ -1,5 +1,4 @@
 //variables
-const cart = []
 const queryString = window.location.search;
 const params = new URLSearchParams(queryString);
 const rollType = params.get("roll");
@@ -14,8 +13,6 @@ class Roll {
       this.basePrice = basePrice;
   }
 }
-
-
 
 //details page image selection
 const imageFile = selectedRoll.imageFile;
@@ -76,15 +73,22 @@ window.onload = function() {
   };
 
 //calculate total price
+let glazingCost
+let packSizeCost
+let calculatedPrice = ((basePrice + parseFloat(glazingCost)) * parseFloat(packSizeCost)).toFixed(2)
+
 function calcPrice(basePrice, glazingCost, packSizeCost){
   let totalPrice = document.getElementById("details_cost");
-  totalPrice.innerHTML = '$' + ((basePrice + parseFloat(glazingCost)) * parseFloat(packSizeCost)).toFixed(2)
+  console.log(totalPrice)
+  totalPrice.innerText = '$' + ((basePrice + parseFloat(glazingCost)) * parseFloat(packSizeCost)).toFixed(2)
+  return ((basePrice + parseFloat(glazingCost)) * parseFloat(packSizeCost)).toFixed(2);
 }
+
 
 //calc price upon changing options
 function glazingChange(element) {
-  const glazingCost = element.value;
-  const packSizeCost = document.getElementById("size").value;
+  const glazingCost = parseFloat(element.value);
+  const packSizeCost = parseFloat(document.getElementById("size").value);
   calcPrice(basePrice, glazingCost, packSizeCost);
 }
   
@@ -95,7 +99,6 @@ function sizeChange(element) {
 }
 
 //add to cart
-
 document.getElementById("add_cart").addEventListener("click", function() {
   const glazingOptionsSelect = document.getElementById("glazingOptions");
   const glazingChoice = glazingOptionsSelect.options[glazingOptionsSelect.selectedIndex].text;
@@ -104,8 +107,8 @@ document.getElementById("add_cart").addEventListener("click", function() {
   const newRoll = new Roll(rollType, glazingChoice, packSize, basePrice);
   cart.push(newRoll);
   console.log(cart);
-}
-
+  }
 ) 
 
 //MDN, Class slides, Lab examples were used in this homework
+

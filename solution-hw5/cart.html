@@ -3,8 +3,6 @@
   <meta charset="UTF-8">
   <title>Page Title</title>
   <link rel="stylesheet" href="./css/style.css">
-  <script src="./js/rollsData.js" defer></script>
-  <script src="./js/details.js" defer></script>
   
   <body>
     
@@ -34,51 +32,42 @@
     </div>  
       
     <!-- cart body-->
-    <div id ='cart_body'>
-      <ul id="shopping_cart">
-        <li class="cart_items">
-          <div class="cart_item_img">
-            <img src="../assets/products/original-cinnamon-roll.jpg" alt="original-cinnamon-roll" class="cart_img">
-            <p class="remove">Remove</p>
-          </div>  
-          <div class="cart_item_desc">
-            <br>
-            <p>Original cinnamon roll</p>
-            <p>Glazing: Keep original</p>
-            <p>Pack size: 1</p>
-            <br>
-          </div>
-          <div class="cart_item_price">
-            <p class="prd_total">$2.49</p>
-          </div>
-        </li>  
-        <li class="cart_items">
-          <div class="cart_item_img">
-            <img src="../assets/products/double-chocolate-cinnamon-roll.jpg" alt="original-cinnamon-roll" class="cart_img">
-            <p class="remove">Remove</p>
-          </div> 
-          <div class="cart_item_desc">
-          <br>
-            <p>Double-chocolate cinnamon roll</p>
-            <p>Glazing: Sugar Milk</p>
-            <p>Pack size: 6</p>
-            <br>
-          </div>
-          <div class="cart_item_price">
-            <p class="prd_total">$27.45</p>
-          </div>  
-        </li>  
-      </ul>
-
+    <div id='cart_body'>
+      <ul id="shopping_cart"></ul>
+  
       <hr id="cart_hr">
-
+  
       <div id="cart_total">
-        <p>Total: </p>
-        <p>$29.94</p>
+        <p>Total: <span id="total_price">$0.00</span></p>
       </div>
-
       <button id="checkout">Checkout</button>
-
     </div>
+  
+
+
+    <!-- template for cart items -->
+    <template id="cart-item-template">
+      <li class="cart_items">
+        <div class="cart_item_img">
+          <img src="" alt="" class="cart_img">
+          <p class="remove">Remove</p>
+        </div>
+        <div class="cart_item_desc">
+          <br>
+          <p class="rollType"></p>
+          <p class="glazing"></p> 
+          <p class="pack-size"></p>
+          <br>
+        </div>
+        <div class="cart_item_price">
+          <p class="prd_total"></p>
+        </div>
+      </li>
+    </template>
+
+    <script src="./js/rollsData.js" defer></script>
+    <script src="./js/cart.js" defer></script>
+
+
   </body>
 </html>
