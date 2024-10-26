@@ -13,3 +13,8 @@ Similar to project 1, this project informs users of their remaining caloric budg
 ### *Idea 3*
 ![Project1](images/project3.png)
 Finally, this is a straightforward personal website, primarily aimed at Sr. Product Manager or Research Engineer roles.
+
+## Feedback Summary
+The two main pieces of feedback I got were relevant to project 1 and 2. The first piece of feedback was from my TA and very valid, specifically for project 2: Have a backup plan in case the activity recognition project does not work out. The second piece of feedback was regarding goal entry. Specifically, the group was curious if part of these projects would be to help people identify their goals. I will be taking a naive approach to this project, meaning that I assume people already know their goals and can enter them into the provided UI.
+
+## Feedback Digestion
