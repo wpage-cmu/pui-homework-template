@@ -30,7 +30,7 @@ Finally, this is a straightforward personal website, primarily aimed at Sr. Prod
 ## Feedback Summary
 The two main pieces of feedback I got were relevant to project 1 and 2. The first piece of feedback was from my TA and very valid, specifically for project 2: Have a backup plan in case the activity recognition project does not work out. 
 
-The second piece of feedback was regarding goal entry. Specifically, the group was curious if part of these projects would be to help people identify their goals.
+The second piece of feedback was regarding goal entry. Specifically, the group was curious if part of these projects would be to help people identify their goals. This was a concern because that onboarding in and of itself can be fairly complex.
 
 ## Feedback Digestion
 The way I plan to address the first point of feedback that I was received is to do the project that is related to budgeting. This avoids the dependency on the signal processing project, and ensures that the project is scoped to be able to complete it successfully within the course.
