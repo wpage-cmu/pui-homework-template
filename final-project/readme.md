@@ -23,9 +23,21 @@ The goal will be to have this deployed and complete enough that my peers can bet
 ![Project1](images/project2.png)
 Similar to project 1, this project informs users of their remaining caloric budget in locations or websites of interest. The nuance here though is that it will sit on top of an activity recognition algorithm I am building in a different class in order to recognize eating. This would use that to prompt users to input their calories, and computer vision (likely Google Lens) to recognize the food and assist in calorie estimation.
 
+Same interactivity and accessibility plan as above. 
+
+More technical details of what the app would include:
+- goal entry
+- goal progress interface
+- 'eating detected' notification (using algorithm from other class)
+- calorie estimation workflow, with focus on aiming to be as close to automatic as possible, which could be done through:
+    - integration with Google Lens API
+    - integration with some Nutrition API
+
 ### *Idea 3*
 ![Project1](images/project3.png)
 Finally, this is a straightforward personal website, primarily aimed at Sr. Product Manager or Research Engineer roles. I will cover three main pillars: my product leadership acumen, technical acumen, and current focus of projects for the next chapter of my career. 
+
+One means of interactivity I want to explore is different scroll behaviors, mainly in which the pages are focused on one 'row' at a time, and there is a sort of slow scroll in between that does most of the scroll all at once.
 
 ## Feedback Summary
 The two main pieces of feedback I got were relevant to project 1 and 2. The first piece of feedback was from my TA and very valid, specifically for project 2: Have a backup plan in case the activity recognition project does not work out. 
