@@ -20,6 +20,12 @@ This mockup is the notification and represents the crux of this idea. I received
 Using this feedback, I have created several different intervention types. I do not think that usability testing or interviews are very meaningful research with these. I want to test this in-situ, and monitor spend change based on the different types.
 
 ## Updated Designs
+### *Updated Prototype 1*
+<img src="images/pr1f.png" alt="protype 1 with greeting message, several budget categories with target spend numbers, and a save button" width="220">
+Added wellness as default, will include both price and timeframe within the same edit interaction.
+
+<img src="images/pr2f.png" alt="protype 1 with a notification on an iPhone lock screen stating that the user has $38 left in their clothes budget that month" width="220">
+Explored different intervention types. 
 
 
 
