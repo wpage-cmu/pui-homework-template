@@ -4,22 +4,22 @@
 Title: Digital WillPower
 Have you ever looked at your budget at the end of the month and realized you spent too much? Often, people change their behavior as a reaction to a realized cost. Digital WillPower will pair users' target budgets with location and transaction data to provide just-in-time information so people can make the right decision before they overspend. 
 
-## Hifi Prototypes
-<img src="images/pr1nf.png" alt="protype 1 with greeting message, several budget categories with target spend numbers, and a save button" width="200">
+## Hifi Prototypes & Usability Tests
+### *Prototype 1*
+<img src="images/pr1nf.png" alt="protype 1 with greeting message, several budget categories with target spend numbers, and a save button" width="220">
 
-<img src="images/pr2nf.png" alt= "protoype 2 with a notification on an iPhone lock screen stating that the user has $38 left in their clothes budget that month"  width="200">
+This mockup is the onboarding screen in which users can set up their target spend. There is a greeting atop the screen that will change based on first visit or returning user. The user is able to add or remove categories, and edit their spend targets and timeframe. I received positive feedback in user feedback sessions about the interaction desgin (editing and changing categories) but got insight that the language to refer to specific categories can change (users referred to gym budget as 'wellness' and 'gym'). Also, one user thought they should be able to edit the timeframe while editing the price
 
+Using this feedback, I have updated the default categories to include wellness, and include editing the timeframe within the editing price interaction (they were separate before).
 
+### *Prototype 2*
+<img src="images/pr2nf.png" alt= "protoype 2 with a notification on an iPhone lock screen stating that the user has $38 left in their clothes budget that month"  width="220">
 
+This mockup is the notification and represents the crux of this idea. I received positive user feedback with no need to edit. However, when talking about this idea with others, they have mentioned that it can seem like their device is scolding or lecturing them. I want to play with different intervention types (prescriptive, reflective, descriptive, etc) to see how behavior changes. 
 
+Using this feedback, I have created several different intervention types. I do not think that usability testing or interviews are very meaningful research with these. I want to test this in-situ, and monitor spend change based on the different types.
 
-
-
-
-
-
-
-
+## Updated Designs
 
 
 
