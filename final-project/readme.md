@@ -24,18 +24,40 @@ Using this feedback, I have created several different intervention types. I do n
 <img src="images/pr1f.png" alt="protype 1 with greeting message, several budget categories with target spend numbers, and a save button" width="220">
 Added wellness as default, will include both price and timeframe within the same edit interaction.
 
+
+
 <img src="images/pr2f.png" alt="protype 1 with a notification on an iPhone lock screen stating that the user has $38 left in their clothes budget that month" width="220">
 Explored different intervention types. 
 
+## Feedback Summary
+
+## Milestones
+
+## Generative AI usage plan
+I plan to use Generative AI to a moderate extent on this project. Specifically, I will use ChatGPT/Claude. 
+
+### *Responsible Use*
+I have a personal policy that I will spend at least 15-30 minutes trying to figure out a problem myself prior to using any GenAI, as I do think there is a lot of benefit in manually figuring something out. Please keep that in mind with the below usages.
+
+Moreover, I will credit GenAI usage in my code accordingly. 
+
+Finally, I do not plan to use GenAI as a creative tool. Maybe to refine ideas, but I hold that using GenAI for creativity will create a sort of regression to the mean of written thought on the internet.
 
 
+### *Tool Use*
 
+I will use it in the following ways:
+- Debugging tool (it is really helpful to ask it why this code may not be working)
+- Ask how I can improve the accessibility of my code
+- Learn about the Google Places and Plaid APIs
+- unblock me if I am stuck in a particular part of the project
 
+I will not use it to:
+- Write blocks of code for me
+- Decide the direction of my project
+- User test (AI is not a replacement for users IMO)
 
-
-
-
-
+---
 # FP1 - Proposal for Critique
 
 ## Idea Sketches
