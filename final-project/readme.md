@@ -33,7 +33,7 @@ Explored different intervention types.
 
 ## Milestones
 Nov 4 - 10
-    Send dummy notification when I enter a restaurant
+* Send dummy notification when I enter a restaurant
 
 Nov 11 - 17
 * Build primary interfaces for users to enter their targets
@@ -46,12 +46,12 @@ Nov 18 - 24
 * Notify users of remaining target
 
 Nov 25 - Dec 1
-    Polish UI
-    (If time) build different intervention types
+* Polish UI
+* (If time) build different intervention types
 
 Dec 2 - 6
-    FP4 due
-    Deploy for beta usage
+* FP4 due
+* Deploy for beta usage
 
 ## Generative AI usage plan
 I plan to use Generative AI to a moderate extent on this project. Specifically, I will use ChatGPT/Claude. 
