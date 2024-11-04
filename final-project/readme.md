@@ -1,3 +1,32 @@
+# FP2 - Evaluation of the Final Project
+
+## Project Description
+Title: Digital WillPower
+Have you ever looked at your budget at the end of the month and realized you spent too much? Often, people change their behavior as a reaction to a realized cost. Digital WillPower will pair users' target budgets with location and transaction data to provide just-in-time information so people can make the right decision before they overspend. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # FP1 - Proposal for Critique
 
 ## Idea Sketches
