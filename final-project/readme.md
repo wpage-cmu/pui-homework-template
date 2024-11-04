@@ -25,15 +25,18 @@ Using this feedback, I have created several different intervention types. I do n
 Added wellness as default, will include both price and timeframe within the same edit interaction.
 
 
-
 <img src="images/pr2f.png" alt="protype 1 with a notification on an iPhone lock screen stating that the user has $38 left in their clothes budget that month" width="220">
 Explored different intervention types. 
 
 ## Feedback Summary
+The first point of feedback was a technical one: how can you establish that someone is 'visiting' a location? Is Google Places API precise enough to see that you are in one store versus another? What if I am just walking by a store and stop to talk to someone?
+
+Both points are good feedback. I think that a time threshold can be applied, where if you are in the same location 1 min or so later (longer than a quick stop outside of a store but shorter than the minimum visit to a store), we can reasonably assume that you are in a store. As for the precision of the Places API, that is something that I investigated their documentation to get the answer to. Just using the GPS, they state 20m but the accuracy can be worse when inside buildings. However, they use Wifi to mitigate that, and are able to maintain the same level of accuracy within 20m. I will be investigating this more thoroughly during the building of the project.
 
 ## Milestones
 Nov 4 - 10
 * Send dummy notification when I enter a restaurant
+* Assess precision of location
 
 Nov 11 - 17
 * Build primary interfaces for users to enter their targets
@@ -65,7 +68,6 @@ Finally, I do not plan to use GenAI as a creative tool. Maybe to refine ideas, b
 
 
 ### *Tool Use*
-
 I will use it in the following ways:
 - Debugging tool (it is really helpful to ask it why this code may not be working)
 - Ask how I can improve the accessibility of my code
