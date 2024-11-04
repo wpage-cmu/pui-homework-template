@@ -5,9 +5,9 @@ Title: Digital WillPower
 Have you ever looked at your budget at the end of the month and realized you spent too much? Often, people change their behavior as a reaction to a realized cost. Digital WillPower will pair users' target budgets with location and transaction data to provide just-in-time information so people can make the right decision before they overspend. 
 
 ## Hifi Prototypes
-![Prototype1](images/pr1nf.png)
+![Prototype1]<img src="images/pr1nf.png" width="200">
 
-![Prototype2](images/pr2nf.png)
+![Prototype2]<img src="images/pr2nf.png" width="200">
 
 
 
