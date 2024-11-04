@@ -36,10 +36,10 @@ Nov 4 - 10
     Send dummy notification when I enter a restaurant
 
 Nov 11 - 17
-    Build primary interfaces for users to enter their targets
-    Notify users when they enter a PoI of their category target
+    - Build primary interfaces for users to enter their targets
+    - Notify users when they enter a PoI of their category target
+    - Nov 13 - FP3 Check-in
 
-    Nov 13 - FP3 Check-in
 Nov 18 - 24
     Integrate Plaid API to track transaction data
     Subtract spend from users' targets
